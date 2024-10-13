@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    /* Use a linear gradient for the background */
+    background: linear-gradient(to right,#062233, #09302b, #7ab37c);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+
+/* dark mode looking scrollbar
+::-webkit-scrollbar { 
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #555;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #121212;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #242424;
+  } */
